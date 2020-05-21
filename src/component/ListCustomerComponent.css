@@ -1,14 +1,11 @@
-* {
-    font-family: 'Tangerine', serif; /* Change your font family */
-}
-body{
-    background-color:aliceblue;
-}
-h1 {
-    color: #3534ad;
+
+ul{
+    color:white;
+    text-emphasis: weight;
     text-align: center;
-    font-size: 50px;
-    font-family: 'Tangerine', serif;
+    padding:50px;
+    margin:25px 0;
+    background-color: blueviolet;
 }
 h3 {
     padding-top: 40px;
@@ -17,6 +14,9 @@ h3 {
     color: #761717;
     font-size: 35px;
 
+}
+li{
+    display: inline;
 }
 .container{
     overflow-x:auto;

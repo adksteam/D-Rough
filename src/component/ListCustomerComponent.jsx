@@ -6,10 +6,10 @@ import DeleteIcon from '@material-ui/icons/Delete';
 class ListCustomerComponent extends Component {
     render() {
         return (
-            <div class="container">
+            <div className="container">
                 <h3><u> All Customers </u></h3>
-                <div class="container">
-                    <table className="table" class="content-table">
+                <div className="container">
+                    <table className="table" className="content-table">
                         <thead>
                             <tr>
                                 <th>Customer ID</th>
@@ -29,7 +29,7 @@ class ListCustomerComponent extends Component {
                             </tr>
                         </tbody>
                     </table>
-                    <a href="/"> <Button size="small" variant="contained" color="secondary" >Add</Button></a>
+                    
                 </div>
             </div>
         );
